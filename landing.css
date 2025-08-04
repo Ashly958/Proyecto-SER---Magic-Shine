@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(135deg, #b1e9f8, #b554e5);
+    background-attachment: fixed;
+    color: #020202;
+}
+
+.pacifico {
+    font-family: 'Pacifico', cursive;
+    color: #6c29d6;
+}
+
+.contenedor-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    box-shadow: 0 0 30px rgba(59, 207, 113, 0.615);
+}
+
+.contenedor-flex {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center; /* o space-around o center */
+    gap: 30px; /* espacio entre los dos divs */
+    max-width: 1500px;
+    margin: 5vh auto;
+}
+
+.contenedor1, .contenedor2 {
+    flex: 1;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    border: 4px dashed #e220f8;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #008080;
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.1);
+}
+
+.lista {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 40px;
+}
+
+.lista li {
+    background: #fbd8fe;
+    border-left: 10px solid #ffa07a;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    border-radius: 15px;
+    transition: transform 0.2s ease;
+}
+
+.lista.deberes li {
+    border-left-color: #7f42f8;
+}
+
+.lista.derechos li {
+    border-left-color: #8baef4;
+}
+
+.lista li:hover {
+    background: #fff8c6;
+    transform: scale(1.02);
+}
+
+.btn-volver{
+    text-decoration: none;
+    margin-left: 48%;
+    margin-bottom: 5vh;
+    padding: 1%;
+    font-size: 2vh;
+    border-radius: 0.3rem;
+    background-color: #96e6e5;
+    color: #100f0f;
+    border: none;
+    box-shadow: 0 4px 15px rgba(111, 226, 211, 0.944);
+}
+
+.btn-volver:hover {
+    background-color: #3070e6; /* un tono más oscuro que el original */
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(199, 124, 209, 0.6);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
