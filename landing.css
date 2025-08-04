@@ -29,8 +29,8 @@ body {
     display: flex;
     align-items: center;
     text-align: center;
-    justify-content: center; /* o space-around o center */
-    gap: 30px; /* espacio entre los dos divs */
+    justify-content: center; 
+    gap: 30px; 
     max-width: 1500px;
     margin: 5vh auto;
 }
@@ -94,7 +94,7 @@ h1 {
 }
 
 .btn-volver:hover {
-    background-color: #3070e6; /* un tono más oscuro que el original */
+    background-color: #3070e6; 
     color: white;
     transform: scale(1.05);
     box-shadow: 0 4px 15px rgba(199, 124, 209, 0.6);

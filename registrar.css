@@ -42,7 +42,7 @@ body {
     display: block;
     width: 100%;
     padding: 10px 15px;
-    margin: 10px auto; /* centra cada input */
+    margin: 10px auto;
     border: none;
     border-radius: 10px;
     outline: none;

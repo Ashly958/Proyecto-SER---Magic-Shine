@@ -54,3 +54,25 @@ button:hover {
 .oculto {
     display: none;
 }
+
+.btn-volver{
+    text-decoration: none;
+    margin-left: 48%;
+    margin-bottom: 5vh;
+    padding: 1%;
+    font-size: 2vh;
+    border-radius: 0.3rem;
+    background-color: #96e6e5;
+    color: #100f0f;
+    border: none;
+    box-shadow: 0 4px 15px rgba(111, 226, 211, 0.944);
+}
+
+.btn-volver:hover {
+    background-color: #3070e6; 
+    color: white;
+    transform: scale(1.05);
+    box-shadow: 0 4px 15px rgba(199, 124, 209, 0.6);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
